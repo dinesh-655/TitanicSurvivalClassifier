@@ -4,7 +4,7 @@ This project predicts the survival of passengers on the Titanic using a Logistic
 
 ## Project Structure
 
-titanic_survival_prediction/
+### titanic_survival_prediction/
 
 │
 
@@ -42,29 +42,51 @@ titanic_survival_prediction/
 # Usage
 ## Fill in the form with the following passenger details:
 
-`Passenger Class (1/2/3)
+Passenger Class (1/2/3)
+
 Sex (0 for male, 1 for female)
+
 Age
+
 Siblings/Spouses Aboard
+
 Parents/Children Aboard
+
 Fare
-Embarked (0 for S, 1 for C, 2 for Q)`
+
+Embarked (0 for S, 1 for C, 2 for Q)
+
 # Click "Predict" to see whether the passenger survived or not.
 
 ## Examples
+
 ### Survival Input
-`Passenger Class: 1
+Passenger Class: 1
+
 Sex: 1 (Female)
+
 Age: 29
+
 Siblings/Spouses Aboard: 0
+
 Parents/Children Aboard: 0
+
 Fare: 100.0
-Embarked: 1 (Cherbourg)`
+
+Embarked: 1 (Cherbourg)
+
 ### Non-Survival Input
-`Passenger Class: 3
+
+Passenger Class: 3
+
 Sex: 0 (Male)
+
 Age: 35
+
 Siblings/Spouses Aboard: 1
+
 Parents/Children Aboard: 0
+
 Fare: 8.05
-Embarked: 0 (Southampton)`
+
+Embarked: 0 (Southampton)
