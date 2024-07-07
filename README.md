@@ -4,16 +4,25 @@ This project predicts the survival of passengers on the Titanic using a Logistic
 
 ## Project Structure
 
-`titanic_survival_prediction/`
-`│`
-`├── app.py`
-`├── templates`
-`│ └── index.html`
-`├── static/`
-`│ └── styles.css`
-`├── logistic_regression_model.pkl`
-`├── README.md`
-`└── requirements.txt`
+titanic_survival_prediction/
+
+│
+
+├── app.py
+
+├── templates/
+
+│ └── index.html
+
+├── static/
+
+│ └── styles.css
+
+├── logistic_regression_model.pkl
+
+├── README.md
+
+└── requirements.txt
 
 - `app.py`: The main Flask application file.
 - `templates/index.html`: The HTML template for the web interface.
